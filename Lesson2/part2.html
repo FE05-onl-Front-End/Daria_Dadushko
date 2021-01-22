@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>part2</title>
+  </head>
+  <body>
+    <h1>JavaScript</h1>
+    <script>
+      var name = prompt(`Имя короля?`);
+      var ourLost = prompt(`Потери армии короля?`);
+      var ourArmy = prompt(`Сколько было воинов в армии короля?`);
+      var enemiesArmy = prompt(` Сколько было врагов?`);
+      var enemiesLost = prompt(`Сколько враги потеряли воинов?`);
+      alert(
+        `Король ${name}, мы победили вражескую армию в ${enemiesArmy}! Враг бежит, оставив на поле боя ${enemiesLost} павших воинов. Наши потери, король ${name}, составили ${ourLost} героически павших воинов от всей нашей армии в ${ourArmy} солдат! Мы победили, сохранив ${
+          ourArmy - ourLost
+        } воинов. И можем продолжить преследовать остатки вражеской армии в ${
+          enemiesArmy - enemiesLost
+        } солдат. С победой, король ${name}!!`
+      );
+    </script>
+  </body>
+</html>
