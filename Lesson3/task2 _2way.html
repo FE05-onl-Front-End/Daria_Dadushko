@@ -9,9 +9,9 @@
     <script>
       let star = "*";
       let space = " ";
-      for (let i = 0; i < 4; i++) {
-        let lineOutput = star;
-        for (let k = 0; k < i; k++) {
+      for (let i = 0; i < 8; i++) {
+        let lineOutput = "";
+        for (let k = 8 - i; k > 0; k--) {
           lineOutput = lineOutput + star;
         }
         console.log(lineOutput);
