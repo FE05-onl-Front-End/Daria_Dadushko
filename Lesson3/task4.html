@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let n = prompt("введите любое число больше или равное 50");
+      let i = 0; //число делений
+      if (n >= 50) {
+        do {
+          i++; //подсчёт числа делений
+          n = n / 2;
+        } while (n >= 50);
+        alert(`число делений: ${i}, конечное частное: ${n} `);
+      } else {
+        alert(
+          `вы ввели неверное значение, будьте внимательней  в следующий раз`
+        );
+      }
+    </script>
+  </body>
+</html>
