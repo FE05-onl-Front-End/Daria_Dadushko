@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // let star = "*";
+      // for (let i = 0; i < 8; i++) {
+      //   let lineOutput = star;
+      //   for (let j = 0; j < i; j++) {
+      //     lineOutput = lineOutput + star;
+      //   }
+      //   console.log(lineOutput);
+      // }
+
+      let star = "*";
+      for (let i = 0; i < 8; i++) {
+        let lineOutput = "";
+        for (let j = 8 - i; j > 0; j--) {
+          lineOutput = lineOutput + star;
+        }
+        console.log(lineOutput);
+      }
+    </script>
+  </body>
+</html>
